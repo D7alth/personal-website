@@ -4,11 +4,12 @@
    brandingStyle: string;
    icon: [string, string]; 
    text: string;
+   link: string;
  }>();
 </script>
 
 <template>
-  <a :class="props.brandingStyle">
+  <a :href="props.link" :class="props.brandingStyle">
     <font-awesome-icon :icon="props.icon"></font-awesome-icon> {{props.text}}
   </a>
 </template>

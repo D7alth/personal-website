@@ -6,7 +6,7 @@
         <div class="container-short-description-text-box">
           <p>Apaixonado por tecnologia desde muito jovem, ao longo dos anos, tenho acumulado experiência em diversos projetos, empresas e desafios. No entanto, minha paixão pela tecnologia nunca diminuiu. Seja atuando em UI/UX, desenvolvimento de Backend, Frontend ou até mesmo em GameDev, cada novo projeto me faz sentir como se fosse a primeira vez.</p>
         </div>  
-        <Button brandingStyle="github-branding-button" :icon="['fab', 'github']" text="Ver todos projetos"></Button>
+        <Button link="https://github.com/d7alth" brandingStyle="grow github-branding-button" :icon="['fab', 'github']" text="Ver todos projetos"></Button>
       </div>
         <circular-animated-text>
           <p class="animated-text">Scroll to discover | Scroll to discover |  Scroll to discover |  </p>
@@ -23,6 +23,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border-radius: 0 0 20px 20px;
 }
 .container-hero-content{
   max-width: 1100px;
