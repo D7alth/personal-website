@@ -17,7 +17,7 @@
 <style scoped>
 .hero{
   background: url("@/assets/images/background-hero.webp") no-repeat center center/cover;
-  min-height: 100vh;
+  min-height: 94vh;
   width: 100%;
   align-content: center;
   display: flex;
@@ -50,12 +50,9 @@
   z-index: 1;
 }
 h1 {
-  font-family: var(--font-headline),serif;
   font-size: 8rem;
-  font-weight: 500;
   text-align: center;
   margin-top: 2rem;
-  color: var( --vt-c-white);
   line-height: 0;
 }
 .animated-text{
