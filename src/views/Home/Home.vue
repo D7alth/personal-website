@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import Hero from "@/views/Home/Hero.vue";
-import CoreTechnologies from "@/views/Home/CoreTechnologies.vue";
+import Services from "@/views/Home/Services.vue";
 </script>
 
 <template>
   <div class="home">
     <Hero/>
-    <CoreTechnologies/>  
+    <Services/>  
   </div>
 </template>
 
@@ -18,6 +18,5 @@ import CoreTechnologies from "@/views/Home/CoreTechnologies.vue";
   align-items: center;
   justify-content: center;
   width: 100%;
-  
 }
 </style>
