@@ -17,13 +17,12 @@
 <style scoped>
 .hero{
   background: url("@/assets/images/background-hero.webp") no-repeat center center/cover;
-  min-height: 94vh;
+  min-height: 100vh;
   width: 100%;
   align-content: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border-radius: 0 0 20px 20px;
 }
 .container-hero-content{
   max-width: 1100px;
