@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const props = defineProps<{
   items: {
-    
     src: string;
     alt: string;
   }[];
@@ -21,11 +20,11 @@ const props = defineProps<{
 <style scoped>
 @keyframes scroll {
   from {
-    transform: translateX(calc(39% + 10px));
+    transform: translateX(calc(42% + 10px));
   }
   to {
     transform: translateX(calc(
-        -100px * 3
+        -100px * 6
     ));
   }
 }
@@ -33,8 +32,9 @@ const props = defineProps<{
   height: 100px;
   position: relative;
   width: 100%;
-  background: white;
+  background: rgba(255, 255, 255, 0.6);
   padding: 1rem;
+  overflow: hidden;
 }
 .carousel::before, .carousel::after {
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%);
@@ -56,7 +56,7 @@ const props = defineProps<{
   overflow: hidden;
   display: flex;
   animation: scroll 20s linear infinite;
-  width: 100%;
+  width: 140%;
 }
 .carousel-item {
   height: 60px;

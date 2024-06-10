@@ -41,5 +41,7 @@ const duplicatedArray = items.concat(items);
 </template>
   
 <style scoped>
-
+section.technologies {
+  width: 100%;
+}
 </style>
